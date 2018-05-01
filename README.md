@@ -684,6 +684,10 @@ A hash of all sources, this gets read out into the file as yaml. Must not be dec
 ##### `cachedir`
 A single string setting the `r10k.yaml` configuration value of the same name
 
+##### `options`
+Generic key => value options to append to the configuration `r1-k.yaml` file.
+Practical for settings additional parameters like `proxy`.
+
 ##### `configfile`
 A path to the configuration file to manage. Be aware Puppet Enterprise 4.0 and higher may conflict if you manage `/etc/puppetlabs/puppet/r10k.yaml`
 
