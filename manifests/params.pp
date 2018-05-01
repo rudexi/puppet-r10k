@@ -20,6 +20,7 @@ class r10k::params
   $git_settings              = {}
   $forge_settings            = {}
   $deploy_settings           = {}
+  $options                   = {}
   # Git configuration
   $git_server = $::settings::ca_server
   $repo_path  = '/var/repos'

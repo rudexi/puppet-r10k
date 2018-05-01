@@ -31,3 +31,6 @@
 <% if !@forge_settings.empty? -%>
 <%= settings_to_yaml('forge', @forge_settings) %>
 <% end -%>
+<% @options.each do |key, value| %>
+<%=key%>: <%=value%>
+<% end %>

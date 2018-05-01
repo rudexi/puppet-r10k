@@ -22,6 +22,7 @@ class r10k (
   Hash $deploy_settings                                       = $r10k::params::deploy_settings,
   $root_user                                                  = $r10k::params::root_user,
   $root_group                                                 = $r10k::params::root_group,
+  $options                                                    = $r10k::params::options,
   $postrun                                                    = undef,
   Boolean $include_prerun_command                             = false,
   Boolean $include_postrun_command                            = false,
